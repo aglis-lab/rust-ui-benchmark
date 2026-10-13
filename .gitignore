@@ -1,0 +1,14 @@
+# Rust build output
+/target/
+
+# Generated benchmark result files
+*.csv
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store

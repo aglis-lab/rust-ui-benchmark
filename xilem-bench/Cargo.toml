@@ -1,0 +1,13 @@
+[package]
+name = "xilem-bench"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bench-core = { path = "../bench-core" }
+xilem = "0.4"
+
+[features]
+# Use Xilem's virtualized list (only visible rows are built). Off by default so
+# the default build renders all rows, like iced does.
+virtual-list = []
